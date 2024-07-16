@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Example Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Custom CSS for additional styling -->
+</head>
+<style> .bg-dark-blue {
+    background-color: #000080; /* Navy */
+}
+.mb-0{
+    font-size: 35px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+}
+
+</style>
+
+<body>
+    <header class="bg-dark-blue text-white">
+        <div class="container py-3">
+            <h1 class="mb-0">Your Cart</h1>
+        </div>
+    </header>
+
+    <main class="container mt-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Name</h5>
+                        <p class="card-text">Product description goes here...</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary decrease-quantity">-</button>
+                                <span class="btn btn-sm btn-outline-secondary quantity">1</span>
+                                <button type="button" class="btn btn-sm btn-outline-secondary increase-quantity">+</button>
+                            </div>
+                            <strong class="price">$19.99</strong>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger btn-sm remove-from-cart">Remove</button>
+                    </div>
+                </div>
+                
+                <!-- Repeat card structure for each product in the cart -->
+                
+                <a href="#" class="btn btn-primary">Proceed to Checkout</a>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Cart Summary</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Subtotal
+                                <span class="subtotal">$19.99</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Tax
+                                <span class="tax">$3.00</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Total
+                                <span class="total">$22.99</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark-blue text-white text-center py-3 mt-5">
+        &copy; 2024 Example Store. All rights reserved.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="cart.js"></script> <!-- Custom JavaScript for functionality -->
+</body>
+</html>

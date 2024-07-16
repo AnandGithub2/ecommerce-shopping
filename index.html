@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Header</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="bg-blue">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+            <div class="logo">
+                <a href="index.html" class="text-white">ANIFY</a>
+            </div>
+            <nav>
+                <button class="navbar-toggler navbar-light btn-white border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Cart (0)</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="cart-icon">
+                <a href="cart.html" class="text-white">
+                    <i class="fas fa-shopping-cart"></i> <!-- Assuming you use Font Awesome for icons -->
+                </a>
+                <a href="notifi.html" class="text-white">
+                    <i class="fa fa-bell"></i> <!-- Assuming you use Font Awesome for icons -->
+                </a>
+            </div>
+         
+        </div>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="shop.html">
+                    <img src="Assest/a1.png" class="d-block w-100" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="shop.html">
+                    <img src="Assest/a2.png" class="d-block w-100" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="shop.html">
+                    <img src="Assest/a3.png" class="d-block w-100" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="shop.html">
+                    <img src="Assest/a4.png" class="d-block w-100" alt="...">
+                </a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    
+    
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Shirts</h2>
+        <div class="row ">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/m11.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$19.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="detail.html" class="view-details">View Details</a>
+                   
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/m2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/m3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/m4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/m5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/m6.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- More product cards here -->
+        </div>
+    </div>
+  
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Pants</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/p2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$19.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/p1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/p3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <h2 class="text-center mb-4">Shirts</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="Assest/sh1.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 1</h5>
+                                <p class="card-text">$19.99</p>
+                                <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                                <a href="#" class="view-details">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="Assest/sh2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 2</h5>
+                                <p class="card-text">$29.99</p>
+                                <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                                <a href="#" class="view-details">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="Assest/sh3.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product 2</h5>
+                                <p class="card-text">$29.99</p>
+                                <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                                <a href="#" class="view-details">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+           
+            <!-- More product cards here -->
+        </div>
+    </div>
+    <section class="top-offers">
+        <div class="container">
+            <h2 class="section-title">Top Offers</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card product-card">
+                        <img src="Assest/ad1.jpeg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <a href="cart.html" class="btn btn-primary btn-lg btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card">
+                        <img src="Assest/ad2.jpeg" class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <a href="cart.html" class="btn btn-primary btn-lg btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card">
+                        <img src="Assest/ad3.jpeg" class="card-img-top" alt="Product 3">
+                        <div class="card-body">
+                            <a href="cart.html" class="btn btn-primary btn-lg btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card product-card">
+                        <img src="Assest/ad4.png" class="card-img-top" alt="Product 4">
+                        <div class="card-body">
+                            <a href="cart.html" class="btn btn-primary btn-lg btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Kurti</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/k1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$19.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/k2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/k3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/k4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/k5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/k6.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- More product cards here -->
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Sarees</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/s1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$19.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/s2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/s3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/s44.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/s5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$29.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="#" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="Assest/s6.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Product 2</h5>
+                        <p class="card-text">$19.99</p>
+                        <a href="cart.html" class="btn btn-primary add-to-cart" data-price="19.99">Add to Cart</a>
+                        <a href="sdetail.html" class="view-details">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- More product cards here -->
+        </div>
+    </div>
+
+   
+           
+            <!-- More product cards here -->
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>ANIFY</h2>
+                <p>Anify is your go-to shop for the best products at the best prices. Follow us on our social media channels for the latest updates and offers.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Anand | All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+/* Custom CSS for specific styling */
+body {
+    background-color: #ffffffae; /* Replace with your desired color */
+}
+/* Header Styles */
+header {
+    background-color: #000dc3;
+    color: white;
+    padding: 5px 20px;
+}
+h2.section-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo a {
+    font-size: 35px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+}
+
+.nav-links a {
+    color: rgb(8, 0, 255);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    color:#00bbff;
+}
+
+/* Carousel Styles */
+.carousel-item img {
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover;
+}
+
+.carousel-inner{
+    margin-top: 5%;
+}
+.text-center.mb-4  {
+    color: #000000; 
+    text-decoration: underline; /* Underline style */
+    text-decoration-color: #0800ff;
+}
+
+.section-title{
+    color: #000000; 
+    text-decoration: underline; /* Underline style */
+    text-decoration-color: #0800ff;
+
+}
+
+
+/* Product Card Styles */
+.card {
+    height: 100%;
+    border: 1px solid #00bbff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow:0 4px 8px #00bbff(0, 157, 255, 0.1);
+    transition: transform 0.3s;
+    width: 250px;
+     max-width: 100%;
+    padding: 15px;
+    margin: 10px;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color:#00bbff;
+}
+.card-img-top {
+    height: 250px; /* Set the height of card images */
+    object-fit: cover; /* Ensure images cover the entire card */
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: #2b00ff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color:#00bbff;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Footer Styles */
+/* Footer Styles */
+footer {
+    background-color: #2f00ff;
+    color: white;
+    padding: 20px;
+    text-align: center; /* Center align content */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; /* Center align content horizontally */
+    align-items: center; /* Center align content vertically */
+    height: 100%; /* Ensure content takes full height of the footer */
+}
+
+.footer-section {
+    text-align: center; /* Center align text */
+}
+
+.footer-section h2 {
+    font-size: 24px; /* Increase font size for header */
+    margin-bottom: 10px; /* Add spacing below header */
+}
+
+.footer-section p {
+    font-size: 16px; /* Font size for paragraph */
+    margin-bottom: 20px; /* Add more spacing below paragraph */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px; /* Add spacing above bottom text */
+    padding-top: 10px; /* Add padding above bottom text */
+    border-top: 1px solid #2200ff; /* Top border for separation */
+    font-size: 14px; /* Font size for bottom text */
+}
+/* Custom CSS for specific styling */
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.top-offers {
+    margin: 20px;
+}
+
+/* Product Card */
+.product-card {
+    border: none; /* Remove border for cleaner look */
+    overflow: hidden;
+    box-shadow: 0 2px 5px #00bbff(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* Example hover effect: lift card on hover */
+}
+
+.product-card .card-img-top {
+    height: 350px; /* Set larger height for product images */
+    object-fit: cover; /* Ensure images cover the card */
+}
+
+.product-card .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card .btn-primary {
+    background-color: #2600ff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product-card .btn-primary:hover {
+    background-color: #00bbff;
+}
+/* Style for "View Details" link to look like plain text */
+.view-details {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap primary color */
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px; /* Adds some spacing between the links */
+    margin-top: 10%;
+}
+
+.view-details:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker shade on hover */
+}
+
+/* Button Styles */
+.btn-primary {
+    background: #007bff; /* Bootstrap primary color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0056b3; /* Darker shade on hover */
+}
+.cart-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    margin-top: 2%;
+}
+
+.cart-icon a {
+    margin-left: 20px; /* Adjust as needed */
+    font-size: 20px; /* Adjust icon size as needed */
+}

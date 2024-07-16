@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .notification-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #fff;
+        }
+        .notification-icon {
+            font-size: 24px;
+            color: #007bff;
+        }
+        .notification-title {
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .notification-time {
+            font-size: 12px;
+            color: #666;
+        }
+        .bg-dark-blue {
+    background-color: #000080; /* Navy */
+}
+.mb-0{
+    font-size: 35px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+}
+.navbar-brand{
+    font-size: 35px;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+}
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ANIFY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Notifications</h2>
+        <div class="notification-card">
+            <div class="row">
+                <div class="col-auto">
+                    <i class="notification-icon fas fa-shopping-cart"></i>
+                </div>
+                <div class="col">
+                    <div class="notification-title">Order Shipped</div>
+                    <div class="notification-description">Your order #12345 has been shipped.</div>
+                    <div class="notification-time">2 hours ago</div>
+                </div>
+            </div>
+        </div>
+        <div class="notification-card">
+            <div class="row">
+                <div class="col-auto">
+                    <i class="notification-icon fas fa-gift"></i>
+                </div>
+                <div class="col">
+                    <div class="notification-title">New Offer</div>
+                    <div class="notification-description">Get 20% off on your next purchase.</div>
+                    <div class="notification-time">1 day ago</div>
+                </div>
+            </div>
+        </div>
+        <div class="notification-card">
+            <div class="row">
+                <div class="col-auto">
+                    <i class="notification-icon fas fa-bell"></i>
+                </div>
+                <div class="col">
+                    <div class="notification-title">Reminder</div>
+                    <div class="notification-description">Don't forget to check out our new collection.</div>
+                    <div class="notification-time">3 days ago</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
